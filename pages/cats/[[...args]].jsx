@@ -13,7 +13,7 @@ export default function Cats() {
   let displayText = ''
   if (router.isReady) {
     if (!args) {
-      displayText = 'index page'
+      displayText = 'index cat page'
     } else {
       displayText = args.join(', ')
     }
